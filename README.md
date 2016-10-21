@@ -25,7 +25,7 @@ Case don't have a docker running
 * **Create DockerFile**
 	
 		FROM debian:jessie
-		MAINTAINER Denis Nascimento <denis.nascimento@thssolution.com>
+		MAINTAINER Denis Nascimento <denis@thssolution.com>
 		
 		RUN apt-get update -y 
 		RUN apt-get install -y git unzip python-pip python-setuptools libpq-dev python-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev   
